@@ -12,6 +12,11 @@
 		5A19DDDA20B304BC0026FF00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A19DDD820B304BC0026FF00 /* Main.storyboard */; };
 		5A19DDDC20B304C10026FF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A19DDDB20B304C10026FF00 /* Assets.xcassets */; };
 		5A19DDDF20B304C10026FF00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A19DDDD20B304C10026FF00 /* LaunchScreen.storyboard */; };
+		5A19DDE720B304F00026FF00 /* QizJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A19DDE620B304F00026FF00 /* QizJson.json */; };
+		5A19DDE920B326950026FF00 /* ModelFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19DDE820B326950026FF00 /* ModelFile.swift */; };
+		5A19DDEB20B334070026FF00 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19DDEA20B334070026FF00 /* Constants.swift */; };
+		5A19DDED20B33C740026FF00 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19DDEC20B33C740026FF00 /* ResultViewController.swift */; };
+		5A19DDEF20B33C970026FF00 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19DDEE20B33C970026FF00 /* ResultTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		5A19DDDB20B304C10026FF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A19DDDE20B304C10026FF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A19DDE020B304C10026FF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A19DDE620B304F00026FF00 /* QizJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = QizJson.json; sourceTree = "<group>"; };
+		5A19DDE820B326950026FF00 /* ModelFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFile.swift; sourceTree = "<group>"; };
+		5A19DDEA20B334070026FF00 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5A19DDEC20B33C740026FF00 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		5A19DDEE20B33C970026FF00 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		5A19DDC820B304BB0026FF00 = {
 			isa = PBXGroup;
 			children = (
+				5A19DDE620B304F00026FF00 /* QizJson.json */,
 				5A19DDD320B304BC0026FF00 /* QuizInterViewApp */,
 				5A19DDD220B304BC0026FF00 /* Products */,
 			);
@@ -55,7 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				5A19DDD420B304BC0026FF00 /* AppDelegate.swift */,
+				5A19DDEA20B334070026FF00 /* Constants.swift */,
+				5A19DDE820B326950026FF00 /* ModelFile.swift */,
 				5A19DDD620B304BC0026FF00 /* ViewController.swift */,
+				5A19DDEC20B33C740026FF00 /* ResultViewController.swift */,
+				5A19DDEE20B33C970026FF00 /* ResultTableViewCell.swift */,
 				5A19DDD820B304BC0026FF00 /* Main.storyboard */,
 				5A19DDDB20B304C10026FF00 /* Assets.xcassets */,
 				5A19DDDD20B304C10026FF00 /* LaunchScreen.storyboard */,
@@ -124,6 +139,7 @@
 			files = (
 				5A19DDDF20B304C10026FF00 /* LaunchScreen.storyboard in Resources */,
 				5A19DDDC20B304C10026FF00 /* Assets.xcassets in Resources */,
+				5A19DDE720B304F00026FF00 /* QizJson.json in Resources */,
 				5A19DDDA20B304BC0026FF00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A19DDED20B33C740026FF00 /* ResultViewController.swift in Sources */,
+				5A19DDE920B326950026FF00 /* ModelFile.swift in Sources */,
 				5A19DDD720B304BC0026FF00 /* ViewController.swift in Sources */,
 				5A19DDD520B304BC0026FF00 /* AppDelegate.swift in Sources */,
+				5A19DDEF20B33C970026FF00 /* ResultTableViewCell.swift in Sources */,
+				5A19DDEB20B334070026FF00 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
